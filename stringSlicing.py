@@ -4,15 +4,15 @@
 
 name = "Nicholas Amancio"
 #start is inclusive, end is exclusive
-firstName = name[0:8]
-lastName = name[9:16]
-funkyName = name[0:8:2]
-reversedName = name[::-1]
+first_name = name[0:8]
+last_name = name[9:16]
+funky_name = name[0:8:2]
+reversed_name = name[::-1]
 
-print(firstName)
-print(lastName)
-print(funkyName)
-print(reversedName)
+print(first_name)
+print(last_name)
+print(funky_name)
+print(reversed_name)
 
 #you can also write the index like this since python interprets the start or end point
 shortcut1 = name[:8]
